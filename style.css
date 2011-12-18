@@ -93,52 +93,58 @@ h3 {
   font-size:1.0em;
 }
 
-#top {
-  background: red;
-  width: 100%;
-  top: 0;
-  bottom: 60px;
+#chat_h {
+  position: fixed; 
+  /* border: thin #FFCC00 solid; */
+  left:1%;
+  top: 27px;
+  width: 33%;
+}
+
+#blog_h {
+  position: fixed; 
+  /* border: thin #FFCC00 solid; */
+  top: 27;
+  left:33%;
+
+}
+
+#file_h {
+  position: fixed;
+  /* border: thin #FFCC00 solid; */
+  top: 27px;
+  right: 0px;
+  width: 33%;
 }
 
 #chat {
+  position: fixed; 
+  /* border: thin #FFCC00 solid; */
+  left:1%;
+  top: 70px;
+  bottom: 0px;
+  width: 32%;
+  overflow: auto;
+}
+
+#blog {
+	position: fixed; 
+  /* border: thin #FFCC00 solid; */
+  top: 70;
+  left:33%;
+  height: 100%;
+  width: 33%;
+  overflow: auto;
+}
+
+#file {
   position: fixed;
-  /*border: thin #FFCC00 solid;*/
-  /*background: #e0e0e0;*/
-  left: 5px;
-  top: 8px;
-  width: 175px;
-  /*padding: 5;*/
-  line-height: 1.3em;
-
-}
-
-#wrapper {
-  /*border: thin #FFCC00 solid;*/
-  /*width: 400px;*/
-  margin-right: 0;
-  margin-left: 180px;
-  font-family: 'Droid Sans', "Apple Gothic", "Segoe UI Semibold", sans-serif;
-}
-
-#middle {
-  /*border: thin #FFCC00 solid;*/
-  top: 0;
-  margin-left: 180px;
-  /*margin-right:305;*/
-  width: 460px;
-}
-
-#staging {
-  position: fixed;
-  /*border: thin #FFCC00 solid;*/
-  top: 8px;
-/*
-  right: 5;
-  width: 300px;
-*/
-  
-  left: 655px;
-  width:300px;
+  /* border: thin #FFCC00 solid; */
+  top: 70px;
+  right: 0px;
+  height: 100%;
+  width: 33%;
+  overflow: auto;
 }
 
 #login-vert {
