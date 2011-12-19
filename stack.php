@@ -6,7 +6,7 @@
 <h2 id="file_h">file...</h2>
 
 <div id="chat">
-	
+	<?php include 'chat.php' ?>
 	<p>
 	chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat
 	chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat chat 
@@ -92,7 +92,8 @@
 </div>
 
 <div id="blog">
-	
+	<?php include 'blog.php' ?>
+	<br/>
 	<p>
 	blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog 
 	blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog 
@@ -198,7 +199,8 @@
 </div>
 
 <div id="file">
-	
+	<?php include 'file.php' ?>
+	<br/>
 	<p>
 	file file file file file file file file file file file file file file file file file file file file 
 	file file file file file file file file file file file file file file file file file file file file 

@@ -43,69 +43,35 @@ h2 {
   text-shadow: lightgray 2px 2px 4px;
   font-weight: lighter;
   font-size:1.2em;
+  padding:3px;
+}
+
+h3 {
+	text-align: left;
+	color: #444;
+	text-shadow: lightgray 2px 2px 4px;
+  font-weight: lighter;
+  font-size:1.1em;
+  padding:3px;
 }
 
 p.small {
   font-size:0.8em;
 }
 
-
-/*
-ul.small {
-  list-style-type:circle;
-  marign-left: 0; 
-  padding-left: 10px;
-  font-size:0.8em;
-}
-*/
-
-
-legend
-        {
-        font-weight:lighter;
-        font-family: 'Droid Sans', "Apple Gothic", "Segoe UI Semibold", sans-serif;
-        text-align:left;
-        /*margin-top:1em;*/
-        color:#333;
-        text-transform:uppercase;
-        letter-spacing:1px;
-        font-size:1.2em;
-        line-height:1.5em;
-        
-        }
-        
-fieldset
-        {
-        text-align:left;
-
-        border:3px double #ccc;
-        -webkit-border-radius:8px;
-        -moz-border-radius:8px;
-        border-radius:8px;
-        }
-        
-
-h3 {
-  text-align: left;
-  color: #666;
-  text-shadow: lightgray 2px 2px 4px;
-  font-weight: lighter;
-  font-size:1.0em;
-}
-
 #chat_h {
   position: fixed; 
   /* border: thin #FFCC00 solid; */
-  left:1%;
+  left:0px;
   top: 27px;
-  width: 33%;
+  width: 33.333%;
 }
 
 #blog_h {
   position: fixed; 
   /* border: thin #FFCC00 solid; */
   top: 27;
-  left:33%;
+  left:33.333%;
 
 }
 
@@ -114,36 +80,39 @@ h3 {
   /* border: thin #FFCC00 solid; */
   top: 27px;
   right: 0px;
-  width: 33%;
+  width: 33.333%;
 }
 
 #chat {
   position: fixed; 
   /* border: thin #FFCC00 solid; */
-  left:1%;
+ /*  border-top: thin #FFCC00 solid; */
+  left:0px;
   top: 70px;
   bottom: 0px;
-  width: 32%;
+  width: 33.333%;
   overflow: auto;
 }
 
 #blog {
 	position: fixed; 
   /* border: thin #FFCC00 solid; */
+  /* border-top: thin #FFCC00 solid; */
   top: 70;
-  left:33%;
+  left:33.333%;
   height: 100%;
-  width: 33%;
+  width: 33.333%;
   overflow: auto;
 }
 
 #file {
   position: fixed;
   /* border: thin #FFCC00 solid; */
+  /* border-top: thin #FFCC00 solid; */
   top: 70px;
   right: 0px;
   height: 100%;
-  width: 33%;
+  width: 33.333%;
   overflow: auto;
 }
 
@@ -159,29 +128,10 @@ h3 {
   margin-right: auto;
   margin-left: auto;
 }
-/*#console {
-  border: thin #FFCC00 solid;
-  position: fixed;
-  top:0px;
-  right:0px;
-  bottom:768px;
-  width:350px;
-  overflow: auto;
-  opacity:0.7;
-  background-color: #800000;
-}*/
 
 .intro {
   padding: 5px;
   
-}
-.photoElement {
-  padding: 5px;
-  margin: 0px 0px 5px 0px;
-}
-
-img {
-  margin: 5px;
 }
 
 .elementLeft {
@@ -192,21 +142,28 @@ img {
   float: right
 }
 
-input.full,
-select.full {
+input {
   width: 100%;
+  font-size: 1.1em;
 }
 
-input.most,
-select.most {
-  width: 80%;
-  
+input.button {
+	width:75px;
 }
 
-input,
-select {
-  width: 100%;
-  font-size: 1.2em;
+#right {
+	padding:5px;
+}
+
+textarea,
+select		{
+	width:100%;
+	font-size: 1em;
+	height:150px;
+}
+
+p {
+	padding:5px;
 }
 
 table.silent {
@@ -230,26 +187,5 @@ table.silent th {
 label {
   text-align: right;
   vertical-align:top;
-}
-
-.w2em
-        {
-        width:3em;
-        }
-.w4em
-        {
-        width:5em;
-        }
-.w8em
-        {
-        width:9em;
-        }
-.w16em
-        {
-        width:17em;
-        }
- 
-.alignCenter{
-  text-align: center;
 }
 
